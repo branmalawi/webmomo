@@ -1,13 +1,16 @@
-const myMine = document.querySelector('#myCarousel')
+const myMine = document.querySelector('#home')
 const carousel = new bootstrap.Carousel(myMine, {
-  interval: 10000,
+  interval: 7000,
   wrap: true
 })
 
 const image = document.querySelectorAll(".carousel-item>img");
 const imgContainer = document.querySelectorAll(".carousel-item");
 
-window.onload = window.onresize = () => {
+window.onload = beautyBanner;
+window.onresize = beautyBanner;
+
+function beautyBanner() {
   const width = window.innerWidth;
   const height = window.innerHeight;
   image.forEach(function(e) {
@@ -26,4 +29,59 @@ window.onload = window.onresize = () => {
       e.style.aspectRatio= 'auto';
     }
   })
-};
+}
+
+
+const navbar = document.getElementById("navbar");
+const butNav = document.querySelector(".navbar-toggler")
+const blur = document.querySelector(".blur")
+
+let condition = true;
+
+window.onscroll = e => {
+  if (window.pageYOffset >= 50) {
+    navbar.classList.add("blur");
+    condition = false;
+  }else{
+    navbar.classList.remove("blur");
+    condition = true
+  }
+}
+
+butNav.addEventListener("click", ()=> {
+  if (condition) {
+    if (navbar.classList.contains("blur")) {
+      setTimeout(()=> {
+        navbar.classList.toggle("blur");
+      },550);
+    }else{
+      navbar.classList.toggle("blur");
+    }
+  }
+})
+
+const menuButton = document.querySelectorAll(".nav-item > a");
+
+for(let i = 0; i < menuButton.length; i++) {
+  const check = window.innerWidth <= 768;
+  menuButton[i].addEventListener("click", ()=>{
+    if (i=0) {
+      condition=true;
+      if (!check) {
+        navbar.classList.remove("blur")
+      }
+    }else {
+      condition=false;
+      navbar.classList.add("blur");
+    }
+    if(check) butNav.click();
+  });
+}
+
+
+
+//butNav.click();
+AOS.init({
+  once: true,
+  duration:800
+});
