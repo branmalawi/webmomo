@@ -144,6 +144,8 @@ a {
     width: 100%;
     height: auto;
     overflow: hidden;
+    display: flex!important;
+    justify-content: center;
   }
 
 
