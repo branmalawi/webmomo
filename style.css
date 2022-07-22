@@ -193,7 +193,7 @@ main h2 {
 
 #about-content .about-img {
   width: min(450px,45%);
-  aspect-ratio: 4/3;
+  aspect-ratio: 4/3!important;
   overflow: hidden;
   box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, .7);
   display: flex;
@@ -218,7 +218,7 @@ main h2 {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   #navbar li {
     padding: 4.8vh 0;
   }
