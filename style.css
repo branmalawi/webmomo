@@ -135,6 +135,7 @@ a {
   font-size: clamp(16px,1.5vmax,20px);
   text-decoration: none;
   padding: 2px 10px;
+  padding-bottom: 3px;
 }
 
 
@@ -246,7 +247,7 @@ main h2 {
 
 /*loading animation*/
 
-@keyframes ldio-nrzuczn53eh {
+@keyframes ldio-z1o022q1qp {
   0% { transform: rotate(0) }
   100% { transform: rotate(360deg) }
 }
@@ -255,7 +256,7 @@ main h2 {
   position: fixed;
   width: 100vw;
   height: 100vh;
-  background-color: rgba(0,0,0,.2);
+  background-color: rgba(0,0,0,.4);
   backdrop-filter: blur(50px);
   display: flex;
   justify-content: center;
@@ -272,8 +273,8 @@ main h2 {
   transform: translate(-50%,-50%);
 }*/
 
-.ldio-nrzuczn53eh div { box-sizing: border-box!important }
-.ldio-nrzuczn53eh > div {
+.ldio-z1o022q1qp div { box-sizing: border-box!important }
+.ldio-z1o022q1qp > div {
   position: absolute;
   width: 65px;
   height: 65px;
@@ -281,28 +282,28 @@ main h2 {
   left: 17.5px;
   border-radius: 50%;
   border: 5px solid #000;
-  border-color: #e15b64 transparent #e15b64 transparent;
-  animation: ldio-nrzuczn53eh 1s linear infinite;
+  border-color: #2ecc71 transparent #2ecc71 transparent;
+  animation: ldio-z1o022q1qp 1.2s linear infinite;
 }
 
-.ldio-nrzuczn53eh > div:nth-child(2), .ldio-nrzuczn53eh > div:nth-child(4) {
+.ldio-z1o022q1qp > div:nth-child(2), .ldio-z1o022q1qp > div:nth-child(4) {
   width: 53px;
   height: 53px;
   top: 23.5px;
   left: 23.5px;
-  animation: ldio-nrzuczn53eh 1s linear infinite reverse;
+  animation: ldio-z1o022q1qp 1.2s linear infinite reverse;
 }
-.ldio-nrzuczn53eh > div:nth-child(2) {
-  border-color: transparent #f8b26a transparent #f8b26a
+.ldio-z1o022q1qp > div:nth-child(2) {
+  border-color: transparent #f39c12 transparent #f39c12
 }
-.ldio-nrzuczn53eh > div:nth-child(3) { border-color: transparent }
-.ldio-nrzuczn53eh > div:nth-child(3) div {
+.ldio-z1o022q1qp > div:nth-child(3) { border-color: transparent }
+.ldio-z1o022q1qp > div:nth-child(3) div {
   position: absolute;
   width: 100%;
   height: 100%;
   transform: rotate(45deg);
 }
-.ldio-nrzuczn53eh > div:nth-child(3) div:before, .ldio-nrzuczn53eh > div:nth-child(3) div:after { 
+.ldio-z1o022q1qp > div:nth-child(3) div:before, .ldio-z1o022q1qp > div:nth-child(3) div:after { 
   content: "";
   display: block;
   position: absolute;
@@ -310,24 +311,24 @@ main h2 {
   height: 5px;
   top: -5px;
   left: 25px;
-  background: #e15b64;
+  background: #2ecc71;
   border-radius: 50%;
-  box-shadow: 0 60px 0 0 #e15b64;
+  box-shadow: 0 60px 0 0 #2ecc71;
 }
-.ldio-nrzuczn53eh > div:nth-child(3) div:after {
+.ldio-z1o022q1qp > div:nth-child(3) div:after {
   left: -5px;
   top: 25px;
-  box-shadow: 60px 0 0 0 #e15b64;
+  box-shadow: 60px 0 0 0 #2ecc71;
 }
 
-.ldio-nrzuczn53eh > div:nth-child(4) { border-color: transparent; }
-.ldio-nrzuczn53eh > div:nth-child(4) div {
+.ldio-z1o022q1qp > div:nth-child(4) { border-color: transparent; }
+.ldio-z1o022q1qp > div:nth-child(4) div {
   position: absolute;
   width: 100%;
   height: 100%;
   transform: rotate(45deg);
 }
-.ldio-nrzuczn53eh > div:nth-child(4) div:before, .ldio-nrzuczn53eh > div:nth-child(4) div:after {
+.ldio-z1o022q1qp > div:nth-child(4) div:before, .ldio-z1o022q1qp > div:nth-child(4) div:after {
   content: "";
   display: block;
   position: absolute;
@@ -335,23 +336,23 @@ main h2 {
   height: 5px;
   top: -5px;
   left: 19px;
-  background: #f8b26a;
+  background: #f39c12;
   border-radius: 50%;
-  box-shadow: 0 48px 0 0 #f8b26a;
+  box-shadow: 0 48px 0 0 #f39c12;
 }
-.ldio-nrzuczn53eh > div:nth-child(4) div:after {
+.ldio-z1o022q1qp > div:nth-child(4) div:after {
   left: -5px;
   top: 19px;
-  box-shadow: 48px 0 0 0 #f8b26a;
+  box-shadow: 48px 0 0 0 #f39c12;
 }
-.loadingio-spinner-double-ring-m17rnwwya8b {
+.loadingio-spinner-double-ring-n74hrx4nrzl {
   width: 100px;
   height: 100px;
   display: inline-block;
   overflow: hidden;
   background: none;
 }
-.ldio-nrzuczn53eh {
+.ldio-z1o022q1qp {
   width: 100%;
   height: 100%;
   position: relative;
@@ -359,5 +360,4 @@ main h2 {
   backface-visibility: hidden;
   transform-origin: 0 0; /* see note above */
 }
-.ldio-nrzuczn53eh div { box-sizing: content-box;}
-
+.ldio-z1o022q1qp div { box-sizing: content-box; }
