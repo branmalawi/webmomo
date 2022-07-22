@@ -82,6 +82,6 @@ for(let i = 0; i < menuButton.length; i++) {
 
 //butNav.click();
 AOS.init({
-  once: true,
-  duration:800
+ once: true,
+ duration:800
 });
