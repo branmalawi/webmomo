@@ -158,23 +158,25 @@ a {
 
 .text-banner p {
   line-height: 3vmax;
-  margin: 2.5vmax 0;
+  margin: 2vmax 0;
 }
 
 .text-banner p:nth-child(1) {
-  font-size: clamp(20px,5vmax,70px);
+  font-size: clamp(18px,4vmax,65px);
+  font-weight: 400;
   font-family: var(--eduvic);
   margin-bottom: 3vmax
 }
 
 .text-banner p:nth-child(2) {
-  font-size: clamp(17px,2.8vmax,60px);
-  font-family: var(--nunito)
+  font-size: clamp(17px,4vmax,68px);
+  font-family: var(--nunito);
+  line-height: 3.5vmax;
 }
 
 .text-banner p:nth-child(3) {
-  font-size: clamp(14px,2.3vmax,55px);
-  font-family: var(--quicksand)
+  font-size: clamp(10px,2vmax,35px);
+  font-family: var(--quicksand);
 }
 
 main h2 {
