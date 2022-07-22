@@ -191,17 +191,10 @@ main h2 {
   padding-top: 70px;
 }
 
-#about-content {
-  height: content;
-  justify-content: center;
-  padding: 5px;
-  height: min-content;
-  overflow: hidden;
-}
 
 #about-content .about-img {
   width: min(450px,45%);
-  aspect-ratio: 4/3!important;
+  max-height: 450px;
   overflow: hidden;
   box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, .7);
   display: flex;
@@ -220,7 +213,7 @@ main h2 {
   font-size: clamp(17px,2vmax,20px);
 }
 
-#about-content img {
+#about-content .about-img>img {
   height: 100%;
 }
 
@@ -237,7 +230,7 @@ main h2 {
   }
   #about-content .about-img {
     width: min(450px,95%);
-    aspect-ratio:3/4;
+    aspect-ratio:4/4;
   }
  
   #about-content .about-text {
