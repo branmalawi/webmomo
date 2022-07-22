@@ -202,15 +202,14 @@ main h2 {
 }
 
 #about-content .about-text {
-  width: min(450px,45%);
+  width: min(450px,50%);
   height: min-content;
   text-indent: 20px;
   text-align: justify;
-  margin: 10px 5px;
 }
 
 #about-content .about-text>p {
-  font-size: clamp(17px,2.5vmax,20px);
+  font-size: clamp(17px,2vmax,20px);
 }
 
 #about-content img {
@@ -233,6 +232,7 @@ main h2 {
  
   #about-content .about-text {
     width: min(450px,95%);
+    margin: 10px 0;
   }
   
   main h2 {
