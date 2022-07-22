@@ -260,7 +260,8 @@ main h2 {
   position: fixed;
   width: 100vw;
   height: 100vh;
-  background-color: floralwhite;
+  background-color: rgba(0,0,0,.5);
+  backdrop-filter: blur(50);
   display: flex;
   justify-content: center;
   align-items: center;
