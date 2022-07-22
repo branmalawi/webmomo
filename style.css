@@ -209,7 +209,7 @@ main h2 {
 }
 
 #about-content .about-text>p {
-  font-size: clamp(17px,2.8vmax,20px);
+  font-size: clamp(17px,2.5vmax,20px);
 }
 
 #about-content img {
