@@ -203,9 +203,10 @@ main h2 {
 
 #about-content .about-text {
   width: min(450px,45%);
+  height: min-content;
   text-indent: 20px;
   text-align: justify;
-  margin: 10px 0;
+  margin: 10px 5px;
 }
 
 #about-content .about-text>p {
@@ -225,7 +226,6 @@ main h2 {
   #navbar li>a {
     font-size: 18px;
   }
-  
   #about-content .about-img {
     width: min(450px,95%);
     aspect-ratio:3/4;
