@@ -25,7 +25,7 @@ body {
 }
 
 .blur{
-  background-color: rgba(0,0,0,.4);
+  background-color: rgba(0,0,0,.5);
   backdrop-filter: blur(7px);
 }
 
@@ -39,7 +39,9 @@ body {
 }
 
 #logo {
-  aspect-ratio: 1/1;
+  aspect-ratio: 3/1;
+  height: 40px;
+  margin-top: -8px;
 }
 
 .navbar-toggler {
@@ -192,15 +194,16 @@ main h2 {
   padding-top: 70px;
 }
 
+#about-content {
+  height: content;
+  align-items: center;
+}
+
 
 #about-content .about-img {
-  width: min(450px,45%);
-  max-height: 450px;
+  width: min(480px,45%);
   overflow: hidden;
   box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, .7);
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 #about-content .about-text {
@@ -215,13 +218,18 @@ main h2 {
 }
 
 #about-content .about-img>img {
-  height: 100%;
+  width: 100%;
 }
 
 /*loading animation*/
 
 
 @media (max-width: 767px) {
+  #logo {
+    height: 37px;
+  }
+  
+  
   #navbar li {
     padding: 4.8vh 0;
   }
@@ -230,8 +238,8 @@ main h2 {
     font-size: 18px;
   }
   #about-content .about-img {
-    width: min(450px,95%);
-    aspect-ratio:4/4;
+    width: min(480px,95%);
+    aspect-ratio:12/11;
   }
  
   #about-content .about-text {
