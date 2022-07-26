@@ -86,11 +86,26 @@ const table = document.querySelector(".table");
 
 
 let ngasal= [];
-$.getJSON('product.json', data => {
+/*$.getJSON('product.json', data => {
   for(const all of data) {
     ngasal.push(all);
   }
-});
+});*/
+
+let xhr = new XMLHttpRequest();
+xhr.onreadystatechange = function() {
+  if (xhr.readyState==4 && xhr.status == 200) {
+    let data = JSON.parse(this.responseText);
+    for(const all of data) {
+    ngasal.push(all);
+  }
+  }
+}
+
+xhr.open('GET','product.json', true);
+xhr.send();
+
+
 
 console.log(ngasal)
 function popUp(value) {
