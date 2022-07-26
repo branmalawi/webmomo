@@ -1,0 +1,127 @@
+[
+  {
+    "product": "Dried Whole Betel Nut",
+    "image": "asset/product/dried-whole-btn.jpg",
+    "speck": [
+      {
+        "no": 1,
+        "about": "Product",
+        "value": "Dried Betel Nut"
+      },
+      {
+        "no": 2,
+        "about": "Shape",
+        "value": "Whole"
+      },
+      {
+        "no": 3,
+        "about": "Colour",
+        "value": "Natural Brown"
+      },
+      {
+        "no": 4,
+        "about": "Grades",
+        "value": "90-95%"
+      },
+      {
+        "no": 5,
+        "about": "Moisture",
+        "value": "3%-5%"
+      },
+      {
+        "no": 6,
+        "about": "Style",
+        "value": "Sun-Dried"
+      },
+      {
+        "no": 7,
+        "about": "Packing",
+        "value": "50 Kg Paper Bag / Gunny Bag"
+      }
+    ]
+  },
+  {
+    "product": "Dried Whole Betel Nut",
+    "image": "asset/product/dried-whole-btn.jpg",
+    "speck": [
+      {
+        "no": 1,
+        "about": "Product",
+        "value": "Dried Betel Nut"
+      },
+      {
+        "no": 2,
+        "about": "Shape",
+        "value": "Whole"
+      },
+      {
+        "no": 3,
+        "about": "Colour",
+        "value": "Natural Brown"
+      },
+      {
+        "no": 4,
+        "about": "Grades",
+        "value": "90-95%"
+      },
+      {
+        "no": 5,
+        "about": "Moisture",
+        "value": "3%-5%"
+      },
+      {
+        "no": 6,
+        "about": "Style",
+        "value": "Sun-Dried"
+      },
+      {
+        "no": 7,
+        "about": "Packing",
+        "value": "50 Kg Paper Bag / Gunny Bag"
+      }
+    ]
+  },
+  {
+    "product": "Dried Whole Betel Nut",
+    "image": "asset/product/dried-whole-btn.jpg",
+    "speck": [
+      {
+        "no": 1,
+        "about": "Product",
+        "value": "Dried Betel Nut"
+        },
+      {
+        "no": 2,
+        "about": "Shape",
+        "value": "Whole"
+        },
+      {
+        "no": 3,
+        "about": "Colour",
+        "value": "Natural Brown"
+        },
+      {
+        "no": 4,
+        "about": "Grades",
+        "value": "90-95%"
+        },
+      {
+        "no": 5,
+        "about": "Moisture",
+        "value": "3%-5%"
+        },
+      {
+        "no": 6,
+        "about": "Style",
+        "value": "Sun-Dried"
+        },
+      {
+        "no": 7,
+        "about": "Packing",
+        "value": "50 Kg Paper Bag / Gunny Bag"
+      }
+    ]
+  }
+]
+
+

@@ -78,7 +78,36 @@ for(let i = 0; i < menuButton.length; i++) {
   });
 }
 
+const pop = document.querySelector(".pop")
+const main = document.querySelector(".pop-image");
+const table = document.querySelector(".table");
 
+
+let ngasal= [];
+$.getJSON('product.json', data => {
+  for(const all of data) {
+    ngasal.push(all);
+  }
+});
+
+console.log(ngasal)
+function popUp(value) {
+  console.log("oke");
+  let date = ngasal[value];
+  main.setAttribute("src",`${date.image}`);
+  let tbody = document.createElement("tbody")
+  for(const data of date.speck) {
+    let tr = document.createElement("tr");
+    for(const isi in data) {
+      let td = document.createElement("td");
+      td.innerHTML = `${data[isi]}`;
+      tr.appendChild(td)
+    }
+    tbody.appendChild(tr);
+  }
+  table.appendChild(tbody);
+  pop.classList.remove("d-none");
+}
 
 //butNav.click();
 AOS.init({
