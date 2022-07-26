@@ -41,8 +41,8 @@
     ]
   },
   {
-    "product": "Dried Whole Betel Nut",
-    "image": "asset/product/dried-whole-btn.jpg",
+    "product": "Dried Split Betel Nut",
+    "image": "asset/product/dried-splite-btn.jpg",
     "speck": [
       {
         "no": 1,
@@ -52,7 +52,7 @@
       {
         "no": 2,
         "about": "Shape",
-        "value": "Whole"
+        "value": "Split"
       },
       {
         "no": 3,
@@ -62,7 +62,7 @@
       {
         "no": 4,
         "about": "Grades",
-        "value": "90-95%"
+        "value": "80%-850% ,  90-95%"
       },
       {
         "no": 5,

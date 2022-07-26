@@ -255,6 +255,43 @@ main h2 {
   font-size: 15px;
 }
 
+
+
+
+#product-content {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+      
+#product-content .cover {
+  width: 30%;
+  max-width: 300px;
+  overflow: hidden;
+  height: min(40vw,400px);
+        /*height: 100px;*/
+  border-radius: 10px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  --blur: blur(0px);
+}
+      
+#product-content .cover>img {
+  width: 100%;
+  filter: var(--blur);
+  transition: .6s;
+}
+
+#product-content .cover:hover {
+  --blur: blur(5px);
+}
+
+
+
 .pop {
   height: 100vh;
   width: 100vw;
@@ -269,8 +306,9 @@ main h2 {
 }
       
 .pop .pop-content{
-  width: 90%;
-  height: 70%;
+  position: relative;
+  width: 70%;
+  height: content;
   background-color: white;
   display: flex;
   padding: 20px 5px;
@@ -280,17 +318,40 @@ main h2 {
   overflow: auto;
 }
 
-.pop .pop-content>img {
-  width: 90%;
+.pop-content .pop-flex {
+  display: flex;
+  width: content;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.pop .pop-content img {
+  width: 30%;
 }
       
-.pop .pop-content>table {
+.pop .pop-content table {
   margin-top: 10px;
-  width: 90%;
+  width: 65%;
   text-align: start;
   font-size: 14px;
 }
 
+.close {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  font-size: 20px;
+  outline: none!important;
+}
+
+.close, 
+.close:focus, 
+.close:active {
+  outline: none!important;
+  box-shadow: none!important;
+  border: 0!important;
+}
 
 
 @media (max-width: 767px) {
@@ -319,6 +380,38 @@ main h2 {
   
   main h2 {
     font-size: 5vmax;
+  }
+  
+  #product-content .cover {
+    width: 90%;
+    max-width: 90%;
+    height: clamp(100px, 40vmax, 400px);
+    /*height: 100px;*/
+    border-radius: 3px;
+  }
+  
+  .pop .pop-content{
+    width: 90%;
+    height: 70%;
+  }
+  
+  .pop-content .pop-flex {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .pop .pop-content img {
+    width: 90%;
+  }
+      
+  .pop .pop-content table {
+    margin-top: 10px;
+    width: 90%;
+    font-size: 14px;
+  }
+  
+  .close {
+    font-size: 17px;
   }
   
 }

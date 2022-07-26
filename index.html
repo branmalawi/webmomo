@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!--link rel="stylesheet" href="cdn_modules/aos@2.3.4/aos.css"-->
      <link href="cdn_modules/bootstrap@5.2.0/css/bootstrap.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/968bc56b55.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <!--nav bar-->
@@ -33,7 +34,7 @@
               <a href="#about">about</a>
             </li>
             <li class="nav-item mx-md-3">
-              <a href="#">product</a>
+              <a href="#product">product</a>
             </li>
             <li class="nav-item mx-md-3">
               <a href="#">contact</a>
@@ -114,10 +115,23 @@
           <p data-aos="fade-up" class="col-10 col-sm-11">Innovation means inventing, designing, and developing products and services that have high appeal in the marketplace and strengthen customer preference for the Betel nuts Indonesia project.</p>
         </div>
       </div>
+      <div id="product">
+        <h2 id="head-product" class="text-center mb-5">product
+        </h2>
+        <div id="product-content">
+          <div class="cover">
+            <img src="asset/product/dried-whole-btn.jpg" alt="">
+          </div>
+          <div class="cover">
+            <img src="asset/product/dried-splite-btn.jpg" alt="">
+          </div>
+          <div class="cover">
+            <img src="asset/product/dried-whole-btn.jpg" alt="">
+          </div>
+        </div>
+      </div>
     </main>
     
-    
-    <button type="submit" class="button" onclick="popUp(0)">click me</button>
 
     <div id="loader">
       <div class="loading">
@@ -139,9 +153,13 @@
     
   <div class="pop d-none">
     <div class="pop-content">
-      <img alt="" class="pop-image">
-      <table class="table table-striped table-bordered">
-      </table>
+      <button type="button" class="btn-close btn-close close" aria-label="Close"></button>
+      <h4 style="text-align: center;font-family: var(--nunito)" class="title-product">betelnut</h4>
+      <div class="pop-flex">
+        <img alt="" class="pop-image">
+        <table class="table table-striped table-bordered">
+        </table>
+      </div>
     </div>
   </div>
   

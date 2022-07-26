@@ -78,7 +78,9 @@ for(let i = 0; i < menuButton.length; i++) {
   });
 }
 
-const pop = document.querySelector(".pop")
+
+const pop = document.querySelector(".pop");
+const judulProduct = document.querySelector(".title-product")
 const main = document.querySelector(".pop-image");
 const table = document.querySelector(".table");
 
@@ -94,6 +96,7 @@ console.log(ngasal)
 function popUp(value) {
   console.log("oke");
   let date = ngasal[value];
+  judulProduct.innerText = `${date.product}`;
   main.setAttribute("src",`${date.image}`);
   let tbody = document.createElement("tbody")
   for(const data of date.speck) {
@@ -108,6 +111,24 @@ function popUp(value) {
   table.appendChild(tbody);
   pop.classList.remove("d-none");
 }
+
+const imgProduct = document.querySelectorAll(".cover");
+
+for (let i = 0; i < imgProduct.length; i++) {
+  imgProduct[i].addEventListener("click",() => {
+    popUp(i)
+  })
+}
+
+const close= document.querySelector(".close");
+close.addEventListener("click", () => {
+  pop.classList.add("d-none");
+  main.removeAttribute("src");
+  table.innerHTML= "";
+})
+
+
+
 
 //butNav.click();
 AOS.init({
