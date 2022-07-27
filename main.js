@@ -7,9 +7,14 @@ const carousel = new bootstrap.Carousel(myMine, {
 const image = document.querySelectorAll(".carousel-item>img");
 const imgContainer = document.querySelectorAll(".carousel-item");
 
-window.onload = beautyBanner;
-window.onresize = beautyBanner;
-
+window.onload = () => {
+  beautyBanner();
+  fixGrid();
+}
+window.onresize = () => {
+  beautyBanner();
+  fixGrid();
+}
 function beautyBanner() {
   const width = window.innerWidth;
   const height = window.innerHeight;
@@ -141,6 +146,24 @@ close.addEventListener("click", () => {
   main.removeAttribute("src");
   table.innerHTML= "";
 })
+
+const grid = document.querySelectorAll('.cover');
+const styleImg = getComputedStyle(grid[0]);
+const galery = document.getElementById('gallery-content');
+
+function fixGrid() {
+  galery.style.setProperty('--width',`${styleImg.width}`);
+}
+
+/*
+
+const root = document.querySelector(':root');
+
+window.onload = window.onresize = () => {
+  
+};
+
+*/
 
 
 
