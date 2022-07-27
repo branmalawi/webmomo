@@ -371,6 +371,24 @@ main h2 {
   border: 0!important;
 }
 
+@keyframes wa {
+  50% {transform: scale(1.1);}
+  100% {transform: scale(1);}
+}
+
+#wa {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  margin: 0;
+  z-index: 30;
+}
+
+#wa img {
+  width: 55px;
+  animation: wa 1.5s infinite;
+}
+
 
 @media (max-width: 767px) {
   #logo {
@@ -432,6 +450,11 @@ main h2 {
     font-size: 17px;
   }
   
+  
+  #wa {
+    bottom: 20px;
+    right: 20px;
+  }
 }
 
 /*loading animation*/
