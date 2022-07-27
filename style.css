@@ -298,7 +298,7 @@ main h2 {
 #product-content .cover>.title {
   position: absolute;
   top: 7%;
-  left: 0;
+  left: 5px;
   background-color: rgba(10,10,10,.7);
   padding: 10px;
   text-align: center;
