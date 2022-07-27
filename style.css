@@ -298,8 +298,8 @@ main h2 {
 #product-content .cover>.title {
   position: absolute;
   top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
+  left: 5%;
+  transform: translateY(-50%);
   background-color: #141414;
   padding: 10px;
   text-align: center;
