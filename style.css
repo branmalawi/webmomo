@@ -297,16 +297,15 @@ main h2 {
 
 #product-content .cover>.title {
   position: absolute;
-  top: 50%;
-  left: 5%;
-  transform: translateY(-50%);
-  background-color: #141414;
+  top: 7%;
+  left: 0;
+  background-color: rgba(10,10,10,.7);
   padding: 10px;
   text-align: center;
   display: inline-block;
   color: #d4d4d4;
   font-size: 20px;
-  font-family: var(--poppins)
+  font-family: var(--poppins);
 }
 
 
