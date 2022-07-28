@@ -23,7 +23,7 @@
 
 
 body {
-    background-color: ghostwhite;
+    background-color: #f0f0f0;
 }
 
 .blur{
@@ -218,7 +218,8 @@ main h2 {
 #about-content .about-text>p {
   font-size: clamp(17px,2vmax,20px);
   font-family: var(--quicksand);
-  font-weight: 400;
+  font-weight: 300;
+  color: #1f1f1f;
 }
 
 #about-content .about-img>img {
@@ -377,7 +378,7 @@ main h2 {
   margin: auto;
   grid-template-columns: repeat(3,1fr);
   grid-template-rows: repeat(4,var(--height));
-  gap: 20px;
+  gap: 25px;
 }
 
 #gallery-content .cover {
