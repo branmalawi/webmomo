@@ -196,6 +196,16 @@ main h2 {
   padding-top: 70px;
 }
 
+/*#about {
+  background-image: url('asset/bg.jpg');
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-image: url('asset/bg.jpg');
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: top 20px right;
+}*/
+
 #about-content {
   height: content;
   align-items: center;
