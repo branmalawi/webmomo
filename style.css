@@ -464,7 +464,7 @@ footer #contact>div>p>i {
 }
 
 footer #contact {
- justify-content: space-around;
+ justify-content: space-between;
  align-items: center;
  flex-wrap: wrap;
 }
