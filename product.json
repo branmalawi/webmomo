@@ -82,18 +82,18 @@
     ]
   },
   {
-    "product": "Dried Whole Betel Nut",
-    "image": "asset/product/dried-whole-btn.jpg",
+    "product": "Boiled Betel Nut",
+    "image": "asset/product/boiled-btn.png",
     "speck": [
       {
         "no": 1,
         "about": "Product",
-        "value": "Dried Betel Nut"
+        "value": "Boiled Betel Nut"
         },
       {
         "no": 2,
         "about": "Shape",
-        "value": "Whole"
+        "value": "Boiled"
         },
       {
         "no": 3,
@@ -103,7 +103,7 @@
       {
         "no": 4,
         "about": "Grades",
-        "value": "90-95%"
+        "value": "90%-95%, 80%-85%"
         },
       {
         "no": 5,
